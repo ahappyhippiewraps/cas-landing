@@ -16,7 +16,7 @@
 <meta name="description" content="A community for people who take their curiosity about crystals seriously: live shows, crystal spotlights, and real conversation, from A Happy Hippie.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Source+Sans+3:wght@400;500;600;700&display=swap">
 <style>
   :root{
     color-scheme: dark;
@@ -36,8 +36,9 @@
     --citrine-dim:#5a441e;
     --rose:#e493a4;
     --serif:'Fraunces', Georgia, 'Times New Roman', serif;
-    --sans:'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    --mono:'IBM Plex Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;
+    --sans:'Source Sans 3', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --mono:'Source Sans 3', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --clay:#c9612f;
   }
 
   *{box-sizing:border-box;}
@@ -129,13 +130,13 @@
   .cta-row{margin-top:40px; display:flex; flex-wrap:wrap; align-items:center; gap:18px;}
   .cta{
     font-family:var(--sans); font-weight:600; font-size:0.98rem;
-    background:var(--citrine); color:#1e1608;
+    background:var(--clay); color:#fff7ea;
     padding:15px 30px; border-radius:3px;
     text-decoration:none; display:inline-block;
-    box-shadow:0 0 0 1px rgba(230,172,77,0.35);
+    box-shadow:0 0 0 1px rgba(201,97,47,0.35);
     transition:transform 0.15s ease, box-shadow 0.15s ease;
   }
-  .cta:hover{transform:translateY(-1px); box-shadow:0 6px 18px rgba(230,172,77,0.25);}
+  .cta:hover{transform:translateY(-1px); background:#ad5224; box-shadow:0 6px 18px rgba(201,97,47,0.25);}
   .cta.ghost{
     background:transparent; color:var(--ink);
     box-shadow:inset 0 0 0 1px var(--line);
@@ -402,6 +403,7 @@
           <li>Access to free classes in the classroom</li>
           <li>Crystal Show &amp; Tell live events (show us your rocks!)</li>
           <li>Crystal Spotlight posts, packed with information</li>
+          <li>The free <a href="https://crystals.ahappyhippie.com">Crystal Reference Library</a></li>
         </ul>
       </div>
 
@@ -411,8 +413,7 @@
         <p class="tier-price"><span class="accent">$12</span>/mo or <span class="accent">$99</span>/yr</p>
         <ul class="tier-list">
           <li class="plus">Everything in Standard, plus:</li>
-          <li>Exclusive interactive Crystal Reference Library</li>
-          <li>10% off everything shopped at aHappyHippie.com</li>
+          <li>10% off live show purchases</li>
         </ul>
       </div>
 
@@ -423,7 +424,7 @@
         <ul class="tier-list">
           <li class="plus">Everything in Premium, plus:</li>
           <li>Exclusive interactive Personalized Crystal Selector</li>
-          <li>20% off everything shopped at aHappyHippie.com</li>
+          <li>20% off live show purchases</li>
           <li>First dibs on new stock</li>
           <li>One monthly 1:1 call with Robin for intuitive crystal selection</li>
         </ul>
